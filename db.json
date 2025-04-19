@@ -1,0 +1,212 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "year": "1878",
+      "image": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
+      "description": "The tragic story of aristocrat Anna Karenina's doomed affair with the dashing Count Vronsky and her struggle against the hypocritical conventions of Russian high society.",
+      "rentedBy": null
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "year": "1949",
+      "image": "https://covers.openlibrary.org/b/id/8745958-L.jpg",
+      "description": "A dystopian novel about a totalitarian regime that employs mass surveillance, censorship and mind control to subjugate its citizens under Big Brother.",
+      "rentedBy": null
+    },
+    {
+      "id": "3",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": "1813",
+      "image": "https://covers.openlibrary.org/b/id/14348537-L.jpg",
+      "description": "Elizabeth Bennet navigates manners, upbringing and marriage in aristocratic England, sparring with the proud Mr. Darcy before discovering true love.",
+      "rentedBy": null
+    },
+    {
+      "id": "4",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": "1925",
+      "image": "https://covers.openlibrary.org/b/id/10590366-L.jpg",
+      "description": "Jay Gatsby's obsessive pursuit of Daisy Buchanan and the corruption of the American Dream set amid roaring-20s wealth and excess.",
+      "rentedBy": null
+    },
+    {
+      "id": "5",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "year": "1851",
+      "image": "https://covers.openlibrary.org/b/id/10544254-L.jpg",
+      "description": "Ishmael joins the whaling ship Pequod under Captain Ahab, whose monomaniacal quest is to kill the great white whale Moby Dick.",
+      "rentedBy": "7dd9b497-eafa-4840-81c7-7c3d3e1b41ba"
+    },
+    {
+      "id": "6",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "year": "1869",
+      "image": "https://covers.openlibrary.org/b/id/12621906-L.jpg",
+      "description": "An epic panorama of Russian society during the Napoleonic Wars, weaving together the lives of aristocrats, soldiers and peasants.",
+      "rentedBy": null
+    },
+    {
+      "id": "7",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": "1937",
+      "image": "https://covers.openlibrary.org/b/id/14627509-L.jpg",
+      "description": "Bilbo Baggins is swept into an epic quest to reclaim the dwarve's homeland from the dragon Smaug, discovering courage and cunning along the way.",
+      "rentedBy": null
+    },
+    {
+      "id": "8",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "year": "1866",
+      "image": "https://covers.openlibrary.org/b/olid/OL25429402M-L.jpg",
+      "description": "Raskolnikov's theory that certain extraordinary people can transgress moral laws is tested by the guilt and consequences of his own crime.",
+      "rentedBy": null
+    },
+    {
+      "id": "9",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "year": "1847",
+      "image": "https://covers.openlibrary.org/b/id/278194-L.jpg",
+      "description": "Orphaned Jane Eyre's resilience and moral conviction lead her from a harsh childhood to a governess position at Thornfield Hall—and to Mr. Rochester.",
+      "rentedBy": null
+    },
+    {
+      "id": "10",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "year": "1954",
+      "image": "https://covers.openlibrary.org/b/id/14625765-L.jpg",
+      "description": "Frodo Baggins embarks on a perilous journey to destroy the One Ring and defeat the Dark Lord Sauron, joined by a Fellowship of heroes.",
+      "rentedBy": null
+    },
+    {
+      "id": "11",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": "1960",
+      "image": "https://covers.openlibrary.org/b/id/12606502-L.jpg",
+      "description": "Scout Finch recalls her childhood in racially divided Alabama and her father Atticus's courageous defense of a black man falsely accused of rape.",
+      "rentedBy": null
+    },
+    {
+      "id": "12",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": "1951",
+      "image": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
+      "description": "Disaffected teenager Holden Caulfield wanders New York City, grappling with alienation and his desire to protect innocence.",
+      "rentedBy": null
+    },
+    {
+      "id": "13",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": "1932",
+      "image": "https://covers.openlibrary.org/b/id/8231823-L.jpg",
+      "description": "In a future society engineered for pleasure and stability, John the Savage challenges the cost of a world without conflict or deep feeling.",
+      "rentedBy": null
+    },
+    {
+      "id": "14",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": "1953",
+      "image": "https://covers.openlibrary.org/b/id/12993656-L.jpg",
+      "description": "In a society where books are banned and burned by firemen, Guy Montag begins to question his role in censoring history and knowledge.",
+      "rentedBy": null
+    },
+    {
+      "id": "15",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "year": "1862",
+      "image": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
+      "description": "Ex-convict Jean Valjean seeks redemption under the relentless pursuit of Inspector Javert, set against the backdrop of revolutionary France.",
+      "rentedBy": null
+    },
+    {
+      "id": "16",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": "1890",
+      "image": "https://covers.openlibrary.org/b/id/14314858-L.jpg",
+      "description": "Dorian Gray remains youthful and beautiful while his portrait ages and reveals the corruption of his soul under hedonistic influences.",
+      "rentedBy": null
+    },
+    {
+      "id": "17",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "year": "1897",
+      "image": "https://covers.openlibrary.org/b/id/12216503-L.jpg",
+      "description": "Jonathan Harker's journal and his friends' accounts chronicle the battle against Count Dracula's vampiric terror in Victorian England.",
+      "rentedBy": null
+    },
+    {
+      "id": "18",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "year": "1847",
+      "image": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
+      "description": "Heathcliff's obsessive and destructive love for Catherine Earnshaw tears apart families on the Yorkshire moors across generations.",
+      "rentedBy": null
+    },
+    {
+      "id": "19",
+      "title": "Inherit Your Love",
+      "author": "Sally Cook",
+      "year": "1992",
+      "image": "https://covers.openlibrary.org/b/id/8081436-L.jpg",
+      "description": "The black sheep wasn't about to turn white\n\nAnd that was why Laura didn't relish the idea of telling Alex Gillon he was about to become the Earl of Exonby--and the owner of a Gloucestershire estate.\n\nShe liked it even less once she'd met handsome, hard-talking Alex--now a successful businessman in New Mexico. He'd fled England years ago, wanting no part of the title or his family's estate. And he definitely didn't plan to return.\n\nThe instant electric attraction that sizzled between them brought conflicts--for Laura believed Alex should forget his bitter past and accept his birthright. Even if that meant sacrificing their love.",
+      "rentedBy": null
+    }
+  ],
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Administrator",
+      "email": "admin@biblioteka.com",
+      "password": "admin123",
+      "role": "admin",
+      "favorites": []
+    },
+    {
+      "name": "Dušan Stojiljković",
+      "email": "dusan.stojiljkovic2208@gmail.com",
+      "role": "user",
+      "password": "DusanSt",
+      "id": "7dd9b497-eafa-4840-81c7-7c3d3e1b41ba",
+      "favorites": [
+        "1",
+        "19"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "30ba4569-d9ea-4f2f-8368-64cfa47868f7",
+      "userId": "7dd9b497-eafa-4840-81c7-7c3d3e1b41ba",
+      "bookId": "4",
+      "rentedAt": "2025-04-19T11:34:56.249Z",
+      "returnedAt": "2025-04-19T11:35:02.624Z"
+    },
+    {
+      "id": "9babfbc9-e006-461b-9048-038e1f22f459",
+      "userId": "7dd9b497-eafa-4840-81c7-7c3d3e1b41ba",
+      "bookId": "5",
+      "rentedAt": "2025-04-19T11:34:58.449Z",
+      "returnedAt": null
+    }
+  ]
+}
