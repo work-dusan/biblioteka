@@ -7,6 +7,7 @@ import useAuth from "../hooks/useAuth";
 
 export default function HomePage() {
   const [books, setBooks] = useState([]);
+  const [search, setSearch] = useState("");
   const { user, logout } = useAuth();
   const navigate = useNavigate();
 
@@ -28,11 +29,22 @@ export default function HomePage() {
   }, []);
 
   // Prikaži samo knjige koje niko nije iznajmio
-  const available = books.filter(book => book.rentedBy === null);
+  const available = books.filter(b => b.rentedBy === null);
 
-  const totalPages = Math.max(1, Math.ceil(available.length / ITEMS_PER_PAGE));
+  // Primeni pretragu po naslovu, autoru ili godini
+  const filtered = available.filter(b => {
+    const q = search.trim().toLowerCase();
+    if (!q) return true;
+    return (
+      b.title.toLowerCase().includes(q) ||
+      b.author.toLowerCase().includes(q) ||
+      b.year.toString().includes(q)
+    );
+  });
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
   const start = (page - 1) * ITEMS_PER_PAGE;
-  const currentBooks = available.slice(start, start + ITEMS_PER_PAGE);
+  const currentBooks = filtered.slice(start, start + ITEMS_PER_PAGE);
 
   const handleLogin = () => navigate("/login");
   const handleRegister = () => navigate("/register");
@@ -77,13 +89,23 @@ export default function HomePage() {
       </header>
 
       <main className="flex-grow">
-        <h2 className="text-2xl font-semibold mb-4">Sve knjige</h2>
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-semibold">Sve knjige</h2>
+          <input
+            type="text"
+            value={search}
+            onChange={e => { setSearch(e.target.value); setPage(1); }}
+            placeholder="Pretraga…"
+            className="w-64 border border-gray-300 px-3 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 transition"
+          />
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {currentBooks.map(book => (
             <BookCard
               key={book.id}
               book={book}
-              onOrdered={() => fetchBooks()}
+              onOrdered={fetchBooks}
             />
           ))}
         </div>
@@ -111,5 +133,5 @@ export default function HomePage() {
         )}
       </main>
     </div>
-);
+  );
 }
